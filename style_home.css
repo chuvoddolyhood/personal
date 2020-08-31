@@ -1,0 +1,437 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff;
+}
+
+.quotes{
+    width: 100%;
+    height: 100vh;
+    color: #f4f4f4;
+}
+
+/*====================HEADER NAVIGATION====================*/
+.header{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    height: 6vh;
+    width: 100%;
+    background-color: #ffffff;
+    position: fixed; /*lam thanh navigation dung yen */
+    top: 0;
+    left: 0;
+}
+
+.logo{
+    float: left;/*location*/
+    margin: 1.5vh;/*canh le xung quanh*/
+}
+
+nav{
+    width: 60%;
+    margin-right: none;
+}
+
+.nav_links{
+    display: flex; /*Xep hang ngang*/
+    justify-content: space-around; /*tao khoang cach*/
+    /* float: right;location */
+    margin-top: 1.3vh;
+    margin-left: 30vw;
+    margin-right: 0;
+    width: 40vw;
+}
+
+.nav_links li{
+    list-style: none;
+}
+
+.nav_links a{
+    text-decoration: none;
+    color: #0c0402;
+    font-family: 'Alata', sans-serif;
+    letter-spacing: 3px;
+    font-size: 12px;
+}
+
+.nav_links a:hover{
+    color: #f5c701;
+}
+
+.nav_links a:active{
+    color: #f92e76;
+}
+
+/*==================== THE END OF HEADER NAVIGATION====================*/
+
+/*====================BODY====================*/
+#about_menu{
+    /* background-color: #e8e8e8; */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+#about_menu img{
+    margin: 10vh 0 0 10vw;
+}
+
+.text_about h3{
+    margin: 25vh 0 0 5vw;
+    font-family: 'Alata', sans-serif;
+    font-size: 100px;
+    letter-spacing: 3px;
+    color: #0c0402;
+}
+
+.paragraph{
+    width: 45vw;
+    height: 60vh;
+    margin-top: 1vh;
+}
+
+.text_about p{
+    margin: 0 0 0 4.5vw;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    letter-spacing: 2px;
+    color: #0c0402;
+}
+
+.text_about span{
+    text-transform: uppercase;
+}
+
+.text_about span:hover{
+    text-shadow: 2px 2px 30px #f5c701;
+}
+
+.details{
+    display: flex;
+}
+
+.details a{
+    text-decoration: none;
+    font-family: 'Alata', sans-serif;
+    font-size: 13px;
+    margin: 3vh 0 0 4.5vw;
+    color: #f92e76;
+    letter-spacing: 3px;
+}
+
+.fas{
+    margin: 3vh 0 0 7px;
+}
+
+.quote1{
+    width: 100%;
+    height: 100vh;
+    background-color: #f4f4f4;
+    margin: 10vh 0;
+}
+.quote1_cap{
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    padding: 10vh 0;
+    font-family: 'Libre Caslon Display', serif;
+    color: #aaaaac;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.quote1 h4{
+    font-size: 30px;
+    color: #f6ab01;
+    letter-spacing: 7px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    text-shadow: 2px 2px 50px rgb(153, 153, 153);
+}
+
+.quote1 h6{
+    font-size: 15px;
+    color: #f6ab01;
+    letter-spacing: 5px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin: 5px 0;
+}
+
+.card_area{
+    width: 70vw;
+    height: 80vh;
+    margin: 0 0 0 22vw;
+    display: flex;
+}
+
+.card{
+    width: 220px;
+    height: 450px;
+    background-color: #ffffff;
+    box-shadow: 0 5px 10px #afafaf;
+    margin: 0 2vw;
+}
+
+.card_text{
+    width: 100%;
+    height: 50%;
+}
+
+.card_image{
+    width: 100%;
+    height: 50%;
+}
+
+.card_text h5{
+    font-size: 25px;
+    color: #393939;
+    font-family: 'Alata', sans-serif;
+    text-transform: uppercase;
+    margin: 20px 0 0 15px;
+}
+
+.card_text div{
+    margin: 0;
+    width: 60px;
+    height: 3px;
+    margin: 0 15px;
+    background-color: #d8412d;
+}
+
+.card_text p{
+    font-size: 15px;
+    color: #393939;
+    font-family: 'Alata', sans-serif;
+    margin: 40px 15px 0 15px;
+    text-align: justify;
+    text-indent: 10px;
+}
+
+.card_image{
+    margin: 35px 0 0 42px;
+}
+
+video{
+    margin: 5vh 0 0 39vw;
+    box-shadow: 0 5px 10px #afafaf;
+}
+
+#studio_menu{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    margin: 10vh 0;
+}
+
+.text_studio{
+    height: 80%;
+    width: 50vw;
+}
+
+.text_studio h3{
+    font-size: 20px;
+    font-family: 'Nanum Gothic', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    color: #f6ab01;
+    margin-top: 15vh;
+    margin-left: 5vw;
+    margin-bottom: 0;
+}
+
+.text_studio h1{
+    font-size: 120px;
+    /* font-family: 'Nanum Gothic', sans-serif; */
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    color: #78787a;
+    margin-top: 15vh;
+    margin-bottom: 0;
+    margin-left: 5vw;
+}
+
+.text_studio h2{
+    font-size: 100px;
+    /* font-family: 'Nanum Gothic', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    color: #e7e6e9;
+    margin-top: -53px;
+    margin-bottom: 0;
+    margin-left: 19.33vw;
+}
+
+.text_studio p{
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: #50540c;
+    margin-top: 8vh;
+    margin-bottom: 0;
+    margin-left: 5vw;
+    margin-right: 6vw;
+}
+
+/* Button */
+.text_studio button {
+    display: inline-block;
+    border-radius: 0;
+    border-style: solid;
+    background-color: #f6ab01;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    width: 120px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-left: 10vh;
+    margin-top: 5vh;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+}
+  
+.text_studio button span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+.text_studio button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+.text_studio button:hover span {
+   padding-right: 25px;
+}
+  
+.text_studio button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+/* THE END of Button */
+
+.poster_studio{
+    width: 50vw;
+    height: 100vh;
+}
+
+.poster_studio img{
+    margin: 7vh 0 0 5vw;
+}
+
+#blog_menu{
+    width: 100%;
+    height: 85vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+#blog_menu h1{
+    font-size: 120px;
+    font-family: 'Alata', sans-serif;
+    color: #0c0402;
+    padding: 7vh 0 0 10vw;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+.title_blog{
+    width: 100%;
+    height: 30%;
+    display: flex;
+}
+
+.frame{
+    width: 20vw;
+    height: 40vh;
+    margin: 25px 0 0 10vw;
+    /* background-color: coral; */
+}
+
+.frame h2{
+    color: #0c0402;
+    font-family: 'Alata', sans-serif;
+    font-size: 22px;
+}
+
+.frame p{
+    color: #0c0402;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
+
+.blog_poster img{
+    margin: 60px 17px 0;
+}
+
+/*====================THE END OF BODY====================*/
+
+/*====================FOOTER====================*/
+#footer{
+    width: 100%;
+    height: 36vh;
+}
+
+#footer h2{
+    font-family: 'Libre Caslon Display', serif;
+    font-size: 60px;
+    color: darkblue;
+    margin: 25vh 0 0 10vw;
+}
+
+.contact{
+    margin: 5vh 0 0 10vw;
+    display: flex;
+}
+
+.text_contact{
+    width: 300px;
+    margin: 0 5vw 0 0;
+}
+
+.contact h4{
+    font-family: 'Alata', sans-serif;
+    font-size: 20px;
+    color: #0c0402;
+    margin: 10px 0;
+}
+
+.contact p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #0c0402;
+    margin: 5px 0;
+    width: 100%;
+}
+
+.contact a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: darkblue;
+    margin: 20px 0;
+    text-decoration: none;
+}
+
+.contact a:hover{
+    color: rgb(255, 187, 0);
+}
+
+.icon{
+    display: flex;
+    width: 100%;
+    margin: 0 0 0 60px;
+}
+
+.icon a{
+    margin: 25px 0 0 40px;
+}
+
+.copyright{
+    margin: 25px 0 0 150px;
+}
+/*the end*/
